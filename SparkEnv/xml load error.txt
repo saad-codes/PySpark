@@ -1,0 +1,11 @@
+xml load error
+
+
+
+"first for all get the related file in my case I used spark-xml_2.12:0.13.0"
+
+then take this file into Lib/sc../pyspark/jars and paste there 
+
+now run command
+
+pyspark --jars $SPARK_HOME/jars/spark-xml_2.12:0.13.0.jar
